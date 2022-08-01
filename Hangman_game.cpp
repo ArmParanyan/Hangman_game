@@ -80,7 +80,7 @@ void check_answer(std::vector<int>& letter, std::string& word) {
         }
     }
     if (count_of_asterisk == 0) {
-        std::cout << "YOU ARE WIN";
+        std::cout << "YOU WON";
     }
     else {	
         std::cout << "You are lose because you can't open " << count_of_asterisk << " letter" << std::endl;
